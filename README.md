@@ -21,11 +21,11 @@ Twikenizer was created in order to enable a proper identification of hidden prof
 
 **Using pip**
 
-pip install tweekenize
+```pip install tweekenize```
 
 **Clone repository**
 
-git clone https://github.com/Guilherme-Routar/Twikenizer.git
+```git clone https://github.com/Guilherme-Routar/Twikenizer.git```
 
 ## Usage
 
