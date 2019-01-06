@@ -21,7 +21,7 @@ Tweekenizer was created in order to enable a proper identification of hidden pro
 
 **Using pip**
 
-Soon to be released as a Python package.
+pip install tweekenize
 
 **Clone repository**
 
@@ -30,9 +30,9 @@ git clone https://github.com/Guilherme-Routar/Tweekenizer.git
 ## Usage
 
 ```python
-> import Tweekenizer
+> import tweekenize as twk
 > tweet = 'This is an #hashtag'
-> twk = Tweekenizer()
+> twk = twk.Tweekenizer()
 > twk.tokenize(tweet)
 ['This', 'is', 'an', '#hashtag']
 ```
