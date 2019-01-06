@@ -1,6 +1,6 @@
 import re, emoji
 
-class Tweekenizer():
+class Twikenizer():
 
     def __init__(self):
         
@@ -225,7 +225,7 @@ class Tweekenizer():
         return subtokens, valid_hashtag_mention
 
 
-    # Exemplifies how Tweekenizer handles different situations
+    # Exemplifies how Twikenizer handles different situations
     def examplify(self):
 
         tweet = 'Tw33t a_!aa&!a?b #%lol # @dude_really #hash_tag $hit (g@y) (retard#d) @dude. \U0001F600\U0001F600 !\U0001F600abc %\U0001F600lol #hateit #hate.it $%&/ f*ck-'
