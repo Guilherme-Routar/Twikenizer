@@ -1,4 +1,4 @@
-# Tweekenizer
+# Twikenizer
 
 This repository hosts the code for a tokenizer of tweets. It's main purpose is to identify subtle profanity, so it should
 obtain better performance on data containing hidden profanity (e.g. 'f*ck').
@@ -15,29 +15,29 @@ For the word ```f*ck```,the tokens considered are ```[f, *, ck]```. The word ```
 a single token ```g``` and a wrongly identified mention ```@y```. While the hashtag ```#hash_tag``` is correctly tokenized as 
 ```[#hash_tag]```, *regular* tokens are not underscore separated: ```love_twitter``` is tokenized as ```['love_twitter']``` instead of ```['love', '_', 'twitter']```.
 
-Tweekenizer was created in order to enable a proper identification of hidden profane words, considering the features detailed above. Applying distance related features, i.e. levenshtein distance to slang words should output better results using this tokenizer.
+Twikenizer was created in order to enable a proper identification of hidden profane words, considering the features detailed above. Applying distance related features, i.e. levenshtein distance to slang words should output better results using this tokenizer.
 
 ## Installation
 
 **Using pip**
 
-```pip install tweekenize```
+pip install tweekenize
 
 **Clone repository**
 
-```git clone https://github.com/Guilherme-Routar/Tweekenizer.git```
+git clone https://github.com/Guilherme-Routar/Twikenizer.git
 
 ## Usage
 
 ```python
-> import tweekenize as twk
+> import twikenizer as twk
+> twk = twk.Twikenizer()
 > tweet = 'This is an #hashtag'
-> twk = twk.Tweekenizer()
 > twk.tokenize(tweet)
 ['This', 'is', 'an', '#hashtag']
 ```
 
-Tweekenizer has a built-in function ```examplify``` which demonstrates how it tokenizes different kind of words/tokens.
+Twikenizer has a built-in function ```examplify``` which demonstrates how it tokenizes different kind of words/tokens.
 
 ```python
 > twk.examplify()
