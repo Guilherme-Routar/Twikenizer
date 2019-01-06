@@ -14,3 +14,18 @@ Although TweetTokenizer considers the Twitter *dialect*, it fails to tokenize su
 For the word ```f*ck```,the tokens considered are ```[f, *, ck]```. The word ```g@y``` is tokenized as ```[g, @y]```, considering 
 a single token ```g``` and a wrongly identified mention ```@y```. While the hashtag ```#hash_tag``` is correctly tokenized as 
 ```[#hash_tag]```, *regular* tokens are not underscore separated: ```love_twitter``` is tokenized as ```['love_twitter']``` instead of ```['love', '_', 'twitter']```.
+
+Tweekenizer was created in order to enable a proper identification of hidden profane words, considering the features detailed above. Applying distance related features, i.e. levenshtein distance to slang words should output better results using this tokenizer.
+
+## Installation
+
+**Using pip**
+
+Soon to be released as a Python package.
+
+**Clone repository**
+
+https://github.com/Guilherme-Routar/Tweekenizer.git
+
+## Usage
+
