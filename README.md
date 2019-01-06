@@ -43,9 +43,9 @@ Tweekenizer has a built-in function ```examplify``` which demonstrates how it to
 > twk.examplify()
 Generated tweet
 ###############
-Tw33t a_!aa&!a?b #%lol # @dude_really #hash_tag $hit (g@y) (retard#d) @dude. 😀😀 !😀abc %😀lol #hateit #hate.it $%&/ f*ck-
+Tw33t #%lol # @dude_really #hash_tag $hit (g@y) retard#d @dude. 😀😀 !😀abc %😀lol #hateit #hate.it $%&/ f*ck-
 
 Generated tokens
 ################
-['Tw33t', 'a', '_', '!', 'aa', '&', '!', 'a', '?', 'b', '#%lol', '#', '@dude_really', '#hash_tag', '$hit', '(', 'g', '@', 'y', ')', '(', 'retard', '#', 'd', ')', '@dude', '.', '😀', '😀', '!', '😀', 'abc', '%', '😀', 'lol', '#hateit', '#hate', '.', 'it', '$', '%', '&', '/', 'f*ck', '-']
+['Tw33t', '#%lol', '#', '@dude_really', '#hash_tag', '$hit', '(', 'g', '@', 'y', ')', 'retard#d', '@dude', '.', '😀', '😀', '!', '😀', 'abc', '%', '😀', 'lol', '#hateit', '#hate', '.', 'it', '$', '%', '&', '/', 'f*ck', '-']
 ´´´
