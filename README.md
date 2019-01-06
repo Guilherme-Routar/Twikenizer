@@ -29,3 +29,23 @@ https://github.com/Guilherme-Routar/Tweekenizer.git
 
 ## Usage
 
+```python
+> import Tweekenizer
+> tweet = 'This is an #hashtag'
+> twk = Tweekenizer()
+> twk.tokenize(tweet)
+['This', 'is', 'an', '#hashtag']
+```
+
+Tweekenizer has a built-in function ```examplify``` which demonstrates how it tokenizes different kind of words/tokens.
+
+```python
+> twk.examplify()
+Generated tweet
+---------------
+Tw33t a_!aa&!a?b #%lol # @dude_really #hash_tag $hit (g@y) (retard#d) @dude. 😀😀 !😀abc %😀lol #hateit #hate.it $%&/ f*ck-
+
+Generated tokens
+----------------
+['Tw33t', 'a', '_', '!', 'aa', '&', '!', 'a', '?', 'b', '#%lol', '#', '@dude_really', '#hash_tag', '$hit', '(', 'g', '@', 'y', ')', '(', 'retard', '#', 'd', ')', '@dude', '.', '😀', '😀', '!', '😀', 'abc', '%', '😀', 'lol', '#hateit', '#hate', '.', 'it', '$', '%', '&', '/', 'f*ck', '-']
+´´´
