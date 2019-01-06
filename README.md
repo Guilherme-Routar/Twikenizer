@@ -25,7 +25,7 @@ Soon to be released as a Python package.
 
 **Clone repository**
 
-https://github.com/Guilherme-Routar/Tweekenizer.git
+git clone https://github.com/Guilherme-Routar/Tweekenizer.git
 
 ## Usage
 
