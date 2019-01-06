@@ -13,5 +13,4 @@ Although TweetTokenizer considers the Twitter *dialect*, it fails to tokenize su
 
 For the word ```f*ck```,the tokens considered are ```[f, *, ck]```. The word ```g@y``` is tokenized as ```[g, @y]```, considering 
 a single token ```g``` and a wrongly identified mention ```@y```. While the hashtag ```#hash_tag``` is correctly tokenized as 
-```[#hash_tag]```, *regular* tokens are not underscore separated: ```love_twitter``` is tokenized as ['love_twitter'] instead of
-['love', '_', 'twitter'].
+```[#hash_tag]```, *regular* tokens are not underscore separated: ```love_twitter``` is tokenized as ```['love_twitter']``` instead of ```['love', '_', 'twitter']```.
