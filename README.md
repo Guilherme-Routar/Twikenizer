@@ -21,7 +21,7 @@ Twikenizer was created in order to enable a proper identification of hidden prof
 
 **Using pip**
 
-```pip install tweekenize```
+```pip install twikenize```
 
 **Clone repository**
 
